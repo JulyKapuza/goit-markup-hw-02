@@ -1,0 +1,81 @@
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color: #2196F3;
+
+}
+/* цвет втор #212121 */
+/* цвет основ #757575 */
+/* белій #FFFFFF */
+/* акцент голубой #2196F3 */
+
+/* вторичній цвет фона на команду #F5F4FA */
+.page{
+    background-color: #E5E5E5;
+    color: var(--primary-text-color);
+}
+.logo{
+    color: #000000;
+}
+
+span{
+    color:var(--accent-color);
+}
+
+.list{
+    list-style: none;
+}
+
+
+/* Site nav */
+.site-nav .link{
+    color: var(--title-text-color) ;
+}
+.site-nav .link:hover, 
+.site-nav .link:focus{
+    color: var(--accent-color) ;
+}
+/* Site contacts */
+.contacts .contact{
+    color: var(--primary-text-color);
+}
+.contacts .contact:hover,
+.contacts .contact:focus{
+    color: var(--accent-color);
+}
+/* Hero */
+.hero-title{
+    color: #FFFFFF;
+    background-color: #2F303A;
+}
+
+/* Section */
+.section-title{
+    color: var(--title-text-color);
+}
+
+/* Features */
+.features .title{
+    color: var(--title-text-color);
+}
+
+/* Team */
+.team .title{
+    color: var(--title-text-color);
+}
+
+/* Footer */
+.footer{
+    background-color: #2F303A;
+    color: #ffffff;
+    
+}
+.logo-footer{
+color: #ffffff;
+}
+.information .address{
+    color: #ffffff;
+}
+.contact{
+    color: rgba(255, 255, 255, 0.6);
+}
