@@ -51,6 +51,10 @@ span{
     color: #FFFFFF;
     background-color: #2F303A;
 }
+.button{
+    color: #ffffff;
+    background-color: var(--accent-color) ;
+}
 
 /* Section */
 .section-title{
