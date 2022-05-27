@@ -44,6 +44,9 @@ span{
     color: var(--accent-color);
 }
 /* Hero */
+.hero{
+    background-color: #2F303A;
+}
 .hero-title{
     color: #FFFFFF;
     background-color: #2F303A;
