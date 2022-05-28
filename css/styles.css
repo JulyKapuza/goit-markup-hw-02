@@ -20,19 +20,32 @@
 .page {
     background-color: var(--white-color);
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 }
-
+/* Logo */
 .logo {
     color: var(--black-color-logo);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
 }
 
-span {
+.accent {
     color: var(--accent-color);
 }
 
 /* Site nav */
 .site-nav .link {
     color: var(--title-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -47,6 +60,10 @@ span {
 /* Site contacts */
 .contacts .contact {
     color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .contacts .contact:hover,
@@ -86,12 +103,24 @@ span {
 }
 .hero-title{
     color: var(--white-color);
-    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+     
 }
 /* Button */
 .button{
     background-color: var(--white-color) ;
     color: var(--title-text-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.86;
+    text-align: center;
+    cursor: pointer;
 }
 .button.primary{
     background-color: var(--accent-color);
@@ -101,16 +130,27 @@ span {
 .button.secondary{
     background-color:var(--light-bgc);
     color: var(--title-text-color);
+    font-weight: 500;
+    line-height: 1.6;
+    
 }
 
 /* Section */
 .section-title{
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    
 }
 
 /* Features */
 .features .title{
     color: var(--title-text-color);
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 /* Team */
@@ -119,6 +159,16 @@ span {
 }
 .team .title{
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    
+}
+
+.team .text{
+    font-size: 16px;
+    line-height: 1.2;
+    
 }
 
 /* Footer */
@@ -128,26 +178,38 @@ span {
 
 }
 
-.logo-footer {
+.logo-color {
     color: var(--white-color);
-}
+    }
 
 .information .address {
     color: var(--white-color);
+    text-decoration: none;
 }
 
 .contact {
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 
 /* Portfolio - Портфолио */
-.gallery .title{
-    color: var(--title-text-color);
-}
 .filter .button:hover,
 .filter .button:focus {
     background-color: var(--accent-color);
     color: var(--white-color);
 
 }
+.gallery .title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.gallery .text {
+    font-size: 16px;
+    line-height: 1.9x;
+}
+
