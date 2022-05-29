@@ -14,10 +14,11 @@
     --white-color: #ffffff;
     --dark-bgc: #2F303A;
     --light-bgc: #F5F4FA;
+    --btn-bdc: #188CE8;
 }
 
 /* INDEX-Студия*/
-.page {
+body {
     background-color: var(--white-color);
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
@@ -111,6 +112,21 @@
     text-transform: uppercase;
      
 }
+
+/* Hide the paragraph */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 /* Button */
 .button{
     background-color: var(--white-color) ;
@@ -125,13 +141,21 @@
 .button.primary{
     background-color: var(--accent-color);
     color: var(--white-color);
+    letter-spacing: 0.06em;
 }
+
+.button.primary:hover,
+.button.primary:focus{
+    background-color: var(--btn-bdc);
+}
+
 
 .button.secondary{
     background-color:var(--light-bgc);
     color: var(--title-text-color);
     font-weight: 500;
     line-height: 1.6;
+    letter-spacing: 0.03em;
     
 }
 
@@ -148,6 +172,7 @@
 /* Features */
 .features .title{
     color: var(--title-text-color);
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
@@ -172,6 +197,11 @@
 }
 
 /* Footer */
+
+address{
+    font-style: normal;
+}
+
 .footer {
     background-color: var(--dark-bgc);
     color: var(--white-color);
@@ -182,9 +212,15 @@
     color: var(--white-color);
     }
 
+
 .information .address {
     color: var(--white-color);
     text-decoration: none;
+}
+
+.information .address:hover,
+.information .address:focus{
+    color: var(--accent-color);
 }
 
 .contact {
@@ -210,6 +246,6 @@
 
 .gallery .text {
     font-size: 16px;
-    line-height: 1.9x;
+    line-height: 1.88;
 }
 
