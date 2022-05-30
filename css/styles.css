@@ -26,6 +26,13 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    outline: 2px solid teal;
+}
 /* Logo */
 .logo {
     color: var(--black-color-logo);
@@ -39,6 +46,9 @@ body {
 .accent {
     color: var(--accent-color);
 }
+
+/* Page header */
+.page-header
 
 /* Site nav */
 .site-nav .link {
@@ -73,6 +83,8 @@ body {
 }
 .list{
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* Site nav */
@@ -101,13 +113,16 @@ body {
 /* Hero */
 .hero{
     background-color: var(--dark-bgc);
+    text-align: center;
 }
 .hero-title{
+    margin-top: 0;
+    margin-bottom: 30px;
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
+    
     letter-spacing: 0.06em;
     text-transform: uppercase;
      
@@ -129,6 +144,9 @@ body {
 }
 /* Button */
 .button{
+    border-radius: 4px;
+    padding: 0;
+    border: none;
     background-color: var(--white-color) ;
     color: var(--title-text-color);
     font-family: inherit;
@@ -137,11 +155,17 @@ body {
     line-height: 1.86;
     text-align: center;
     cursor: pointer;
+    text-align: center;
+    
+
 }
 .button.primary{
+    min-width: 200px;
+    min-height: 50px;
     background-color: var(--accent-color);
     color: var(--white-color);
     letter-spacing: 0.06em;
+   
 }
 
 .button.primary:hover,
@@ -160,12 +184,26 @@ body {
 }
 
 /* Section */
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section.no-padding{
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
 .section-title{
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    margin-top:0px;
+    margin-bottom: 50px;
     
 }
 
@@ -176,6 +214,12 @@ body {
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.features p{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* Team */
@@ -205,17 +249,25 @@ address{
 .footer {
     background-color: var(--dark-bgc);
     color: var(--white-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 
 }
 
 .logo-color {
     color: var(--white-color);
+    display: inline-block;
+    padding-bottom: 20px;
     }
 
 
 .information .address {
     color: var(--white-color);
     text-decoration: none;
+}
+
+.information li:not(:last-child) {
+    padding-bottom: 9px;
 }
 
 .information .address:hover,
